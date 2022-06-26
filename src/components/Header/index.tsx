@@ -1,3 +1,4 @@
+import React from 'react';
 import Link from "../Link";
 import Logo from "../../assets/images/dindin-logo-white.png";
 import "./styles.css";
