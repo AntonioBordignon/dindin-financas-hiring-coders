@@ -2,12 +2,12 @@ import "./styles.css";
 
 interface LinkProps { 
     texto: string;
-    redirect: String;
+    redirect: string;
 }
 
 export default function Link(props: LinkProps) {
     return (
-        <a href= "/contato" target= "_black">
+        <a className="links-menu" href={props.redirect} target= "_black" rel="noreferrer">
             {props.texto}
         </a>
     );
