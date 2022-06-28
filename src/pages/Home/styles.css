@@ -1,0 +1,47 @@
+.main-content{
+    display: flex;   
+    justify-content: center; 
+    align-items: center;
+    
+}
+.line-one-title {
+    color: #FF4081;
+    width: 488px;
+    height: 216px;
+    left: 206px;
+    top: 242px;
+
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+}
+.line-one-subtitle{
+    width: 462px;
+    height: 62px;
+    left: 207px;
+    top: 477px;
+
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 31px;
+
+    color: #555555;
+}
+.button {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 31px;
+    padding: 10px, 20px;
+
+    color: #FF4081;
+
+    width: 268px;
+    height: 51px;
+    left: 207px;
+    top: 577px;
+
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    background: white;
+    cursor: pointer
+}
