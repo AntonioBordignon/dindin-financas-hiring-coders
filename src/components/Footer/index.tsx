@@ -18,7 +18,6 @@ export default function Footer() {
             </nav>
                 <button> quero ser prof </button>
                 <button> aqui tem outro link </button>
-
         </footer>
     )
 }

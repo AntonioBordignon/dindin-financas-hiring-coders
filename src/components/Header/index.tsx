@@ -6,15 +6,17 @@ import "./styles.css";
 function Header(){
     return (
         <header>
+            <div className="header">
             <tr>
                 <td><img src={Logo} height="50em"  alt="Logo do dindin"/></td>
-                <td><h1>dindin</h1></td>
+                <td><h1 className="title">dindin</h1></td>
             </tr>
             <nav>
                 <Link texto="Cursos " redirect="cursos"/>
                 <Link texto="Blog " redirect="blog"/>
                 <Link texto="Contato " redirect="contato"/>
             </nav>
+            </div>
         </header>
     );
 };

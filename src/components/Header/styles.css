@@ -1,14 +1,18 @@
 header {
     background: #2E948A; 
-    display: flex;
-    justify-content: space-around;  
-    line-height: 18mm; 
-    align-items: center;   
+    color:white; 
+  
 }
 
-nav {
-    display: flex;
-    gap: 1em;
+.header{
+    max-width: 960px;
+    justify-content: space-between;
+    margin: 0 auto;
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center;
 }
 
-
+.title{
+    font-size: 2.75em;
+}
