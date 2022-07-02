@@ -1,13 +1,14 @@
-header {
+header{
     background: #2E948A; 
     color:white; 
-  
+
 }
 
-.header{
-    max-width: 960px;
+.header-content{
+    max-width: 1400px;
     justify-content: space-between;
     margin: 0 auto;
+    padding-inline: 1.25em;
     display: flex; 
     flex-wrap: wrap;
     align-items: center;

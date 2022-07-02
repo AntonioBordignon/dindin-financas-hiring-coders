@@ -21,14 +21,14 @@ export default function Home() {
   };
     
   return (
-    <div className="App">
+    <div>
       <Header />
       <main>
         <Box background= "claro">
           <div className="main-content">
             <div>
-              <h1 className="line-one-title"> Educação Financeira é tudo de bom</h1>
-              <p className="line-one-subtitle">Vem comigo que te mostro por onde começar</p>
+              <h1 className="line-one-title"> Educação<br/>Financeira<br/>é tudo de bom</h1>
+              <p className="line-one-subtitle">Vem comigo que te mostro <br/> por onde começar</p>
               <button className="button" onClick={sendEmail}> quero saber mais </button>
             </div>
             <div className="main-banner">
