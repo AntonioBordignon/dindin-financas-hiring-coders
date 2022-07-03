@@ -38,22 +38,22 @@ export default function Home() {
         </Box> 
 
         <Box background= "escuro">
-          <div className="cursos">
-            <div className="cursos-item">
+          <div className="courses">
+            <div className="courses-item">
               <img src={BannerTwo} alt="banner"/> 
               <h1 className='line-two-title'>Investimento para iniciantes</h1>
               <p className='line-one-subtitle'>Duis aute irure dolor in reprehenderit in voluptate velit es se cillum dolore eu fugiat nulla pariatur.</p>
               <button className="button-two" onClick={sendEmail}> começar agora </button>
             </div>
 
-            <div className="cursos-item">
+            <div className="courses-item">
               <img src={BannerThree} alt="banner"/>
               <h1 className='line-two-title'>Poupando e Rendendo</h1>
               <p className='line-one-subtitle'>Duis aute irure dolor in reprehenderit in voluptate velit es se cillum dolore eu fugiat nulla pariatur.</p>
               <button className="button-two" onClick={sendEmail}> começar agora </button>
             </div>
 
-            <div className="cursos-item">
+            <div className="courses-item">
               <img src={BannerFour} alt="banner"/>
               <h1 className='line-two-title'>Independência Financeira</h1>
               <p className='line-one-subtitle'>Duis aute irure dolor in reprehenderit in voluptate velit es se cillum dolore eu fugiat nulla pariatur.</p>
@@ -62,22 +62,43 @@ export default function Home() {
           </div>
         </Box>
 
-        <Box background= "claro">
-          <div>
+        <Box background= "claro">       
+          <div className="comments"> 
               <h1> O QUE FALAM SOBRE NÓS</h1>
+          </div>        
+          <div className="comments-container">
+            <div className="comments-img">               
               <img src={UserOne} alt="User"/>
+            </div>
+            <div className="comments-user">
               <p>”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.”</p>
               <p>Wally, 25</p>
-              <img src={UserTwo} alt="User"/>
-              <p >”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.”</p>
-              <p>Whoopi Goldberg, 37</p>
+            </div> 
+
+            <div className="comments-img">
               <img src={UserThree} alt="User"/>
+            </div>
+            <div className="comments-user">
               <p >”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.”</p>
               <p>Jaden Smith, 23</p>
+            </div>
+
+            <div className="comments-img">
+              <img src={UserTwo} alt="User"/>
+            </div>
+            <div className="comments-user">
+              <p >”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.”</p>
+              <p>Whoopi Goldberg, 37</p>
+            </div>
+            
+            <div className="comments-img">
               <img src={UserFour} alt="User"/>
+            </div>
+            <div className="comments-user">
               <p >”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.”</p>
               <p>Janes Joplin, 29</p>
             </div>
+          </div>
         </Box>
 
         <Box background= "escuro">
