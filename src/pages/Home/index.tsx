@@ -38,21 +38,27 @@ export default function Home() {
         </Box> 
 
         <Box background= "escuro">
-          <div>
-            <img src={BannerTwo} alt="banner"/> 
-            <h1 className='line-two-title'>Investimento para iniciantes</h1>
-            <p className='line-one-subtitle'>Duis aute irure dolor in reprehenderit in voluptate velit es se cillum dolore eu fugiat nulla pariatur.</p>
-            <button className="button-two" onClick={sendEmail}> começar agora </button>
+          <div className="cursos">
+            <div className="cursos-item">
+              <img src={BannerTwo} alt="banner"/> 
+              <h1 className='line-two-title'>Investimento para iniciantes</h1>
+              <p className='line-one-subtitle'>Duis aute irure dolor in reprehenderit in voluptate velit es se cillum dolore eu fugiat nulla pariatur.</p>
+              <button className="button-two" onClick={sendEmail}> começar agora </button>
+            </div>
 
-            <img src={BannerThree} alt="banner"/>
-            <h1 className='line-two-title'>Poupando e Rendendo</h1>
-            <p className='line-one-subtitle'>Duis aute irure dolor in reprehenderit in voluptate velit es se cillum dolore eu fugiat nulla pariatur.</p>
-            <button className="button-two" onClick={sendEmail}> começar agora </button>
-          
-            <img src={BannerFour} alt="banner"/>
-            <h1 className='line-two-title'>Independência Financeira</h1>
-            <p className='line-one-subtitle'>Duis aute irure dolor in reprehenderit in voluptate velit es se cillum dolore eu fugiat nulla pariatur.</p>
-            <button className="button-two" onClick={sendEmail}> começar agora </button>          
+            <div className="cursos-item">
+              <img src={BannerThree} alt="banner"/>
+              <h1 className='line-two-title'>Poupando e Rendendo</h1>
+              <p className='line-one-subtitle'>Duis aute irure dolor in reprehenderit in voluptate velit es se cillum dolore eu fugiat nulla pariatur.</p>
+              <button className="button-two" onClick={sendEmail}> começar agora </button>
+            </div>
+
+            <div className="cursos-item">
+              <img src={BannerFour} alt="banner"/>
+              <h1 className='line-two-title'>Independência Financeira</h1>
+              <p className='line-one-subtitle'>Duis aute irure dolor in reprehenderit in voluptate velit es se cillum dolore eu fugiat nulla pariatur.</p>
+              <button className="button-two" onClick={sendEmail}> começar agora </button>          
+            </div>
           </div>
         </Box>
 
@@ -71,7 +77,7 @@ export default function Home() {
               <img src={UserFour} alt="User"/>
               <p >”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.”</p>
               <p>Janes Joplin, 29</p>
-          </div>
+            </div>
         </Box>
 
         <Box background= "escuro">
@@ -86,6 +92,7 @@ export default function Home() {
           <img src={BannerFour} alt="banner"/>
           <h2>Itaque earum rerum </h2>
           <p>hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+          <button className="button" onClick={sendEmail}> começar agora </button>
         </div>
         </Box>      
       </main>
