@@ -1,9 +1,24 @@
 footer {
     background: #2E948A; 
-    display: flex;
-    justify-content: space-around;  
-    line-height: 18mm; 
-    align-items: center;   
+    color:white; 
+    margin: auto
+}
+
+.footer-content{
+    max-width: 1400px;
+    justify-content: space-between;
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 2em;
+}
+
+footer h1 {
+    margin: auto;
+}
+
+footer p {
+    margin: auto;
 }
 
 nav {
@@ -11,4 +26,18 @@ nav {
     gap: 1em;
 }
 
+.footer-button{
+    width: 20em;
+    text-align: center;
+}
 
+button {
+    font-size: 1.15em;
+    color: white;
+    border: 2px solid white;
+    border-radius: 62px;
+    background: none;
+    cursor: pointer;
+    padding: 7px 28px;
+
+}

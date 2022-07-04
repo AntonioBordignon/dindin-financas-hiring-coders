@@ -75,7 +75,7 @@ export default function Home() {
                 </div>
                 <div>
                   <p>”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.”</p>
-                  <p>Wally, 25</p>
+                  <p className="comments-name">Wally, 25</p>
                 </div> 
               </div>
 
@@ -85,7 +85,7 @@ export default function Home() {
                 </div>
                 <div>
                   <p >”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.”</p>
-                  <p>Jaden Smith, 23</p>
+                  <p className="comments-name">Jaden Smith, 23</p>
                 </div>
               </div>
 
@@ -96,7 +96,7 @@ export default function Home() {
                 </div>
                 <div>
                   <p >”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.”</p>
-                  <p>Whoopi Goldberg, 37</p>
+                  <p className="comments-name">Whoopi Goldberg, 37</p>
                 </div>
               </div>
 
@@ -106,7 +106,7 @@ export default function Home() {
                 </div>
                 <div>
                   <p >”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.”</p>
-                  <p>Janes Joplin, 29</p>
+                  <p className="comments-name">Janes Joplin, 29</p>
                 </div>
               </div>
             </div>

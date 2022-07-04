@@ -98,9 +98,12 @@
     margin-bottom: 2.5em; 
 }
 
+.comments-name {
+    font-weight: 500;
+}
 
 .comments-img {
-    border: 2px solid #FF4081;
+    border: 3px solid #FF4081;
 	border-radius: 50%;
 	float: left;
     width: 100px;
