@@ -108,6 +108,7 @@
 	float: left;
     width: 100px;
 	height: 100px;
+    padding: .75em;
 }
 
 /*Blog*/
@@ -118,7 +119,7 @@
     display: flex;
     flex-wrap: wrap;
     max-width: 1100px; 
-    margin:auto;
+    margin: auto;
     padding-top: 2em;
 }
 

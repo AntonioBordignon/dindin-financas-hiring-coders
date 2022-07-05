@@ -1,7 +1,7 @@
 footer {
     background: #2E948A; 
     color:white; 
-    margin: auto
+
 }
 
 .footer-content{
@@ -10,7 +10,8 @@ footer {
     display: flex; 
     flex-wrap: wrap;
     align-items: center;
-    padding: 2em;
+    padding: 1.5em;
+    margin: auto
 }
 
 footer h1 {
@@ -29,6 +30,7 @@ nav {
 .footer-button{
     width: 20em;
     text-align: center;
+    
 }
 
 button {
@@ -39,5 +41,6 @@ button {
     background: none;
     cursor: pointer;
     padding: 7px 28px;
-
+    margin: 0.3em ; 
+    width: 215px;
 }
